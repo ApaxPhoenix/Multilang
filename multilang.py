@@ -30,7 +30,7 @@ class Language(IntEnum):
     UNSPECIFIED = 0xFFFF
 
 
-def connect(path: str = 'multilang.db') -> sqlite3.Connection:
+def connect(path: str = 'languages.db') -> sqlite3.Connection:
     """
     Connect to the SQLite database and create tables if needed.
 
